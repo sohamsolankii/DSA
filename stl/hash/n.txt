@@ -1,0 +1,5 @@
+hasing and mapping Bane ma array to bane j
+
+In hasing make new array of size old aray maximum element
+
+but int maping we make array size of unique element so lesser memory compare to hasing
