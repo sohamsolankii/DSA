@@ -1,0 +1,49 @@
+reprsiontation
+    adjacency matrix : 
+        v*v no metrix banavo
+    list - array of vector / vec of vec
+
+traversal
+    DFS - depth first search
+    BFS - breath first search
+
+algorithum 
+    dijkstra- sortest path
+    bellman ford - multupul  source multiple path
+    disjoint set union
+    minimum spanning tree
+    directed acglic grapg
+    topological sort
+
+
+GRAPHS:
+    edegs or vertices(nodes) na collecton
+    round circals are vertices and lines are edegs
+    without arrow edegs are bidirectional(undirected) with arrow they are diectional
+
+    Acycclic graph - direction hoii pan ek j baju jti hoii cycle na thy 
+    directed cyclic graph - direction hoii pan bane baju jva ni hoii cycle thati hoii
+
+connected components -- graph ni term
+    har ek node se dusre nodes par ja sakte haii(edegs ki help se) to ene ek c.c. kevay
+    diectional graph -> component stongly connected hoi(har ek vertex thi e graph na bija vertex par jai skay and pachu aavi skay jo aam na hooi to bdha different component hoi)
+    collection of connected component ne forest kevay
+
+Reperesiontation ->
+    adjacency matrix : 
+        v*v no metrix banavo == a[i][j] = 1 jo waight aaypu hoi to te 1 ni jgya par wt levu
+        (directed ma x jya thi arrow nikde and y jya arrow jay, undirected ma bane x and y ma levu like (0,1) to (1,0) pn levu kem ke bne side side jai skay)
+        input n->vertices / m->edges na form ma aapva ma aave(lines)
+
+TREES:
+    eva graph jema cycle na hoii like : 1->2->3->1
+    n nodes(vertices) hoii to n-1 edegs hoii
+
+    root node -> tya thi lai ne aakha tree ne hang kari deva nu -> baki bdha node ena child
+    leaf node -> jena child node na hoii / last node
+    depth -> koi pan node nu distence root node thi
+    height -> leaf thi je node par gotvi hoi tya jva vache aavta edegs ne teni height kevay 
+    (LCA) lowest common ancestor -> two node ni upar jta jta sovthi pela je common parent aave  
+    sub tree -> tree ni ander na tree ne 
+
+meaning :- vertices(nodes)/(round circuls) -- edges(line)
