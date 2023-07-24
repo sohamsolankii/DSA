@@ -1,0 +1,32 @@
+predicate function -> always return true or false f f f f f t t t 
+jyare idx joti hoi tyre sort karvu jruri che
+ 
+sorted vada case:-
+    simpple bs
+    monotonic function - increasing/dreacing order ma hse
+    idx find thy jase
+
+
+non sorted case :-
+    maximum, minium vector mathi vstu find karvi hoi tyre bs
+    exaple (11231211113) mini ->1,2,3 aave tevu find krvu 
+    ek point pchi answer yes ke no aave eva case ma bs pchi ble eni size joiti hoi
+
+
+    bool type nu biju function bnavu
+    jema thi khber pdse ke thay che ke naii
+    jeni ek patter che jema pela mid value leva ni
+
+    mid mate check karva nu -> yes hi = mid-1
+
+search space ne two part ma divide kari sakiye ke pelo part bija part karta koi property na base thi 
+alg pde
+
+when we niglate right/left part to finding the possible notpossible on a sorted answer search space 
+we can use binary search
+
+
+painters partition karva ni che
+aggrecive cow
+https://leetcode.com/submissions/detail/977600345/
+https://leetcode.com/submissions/detail/977360593/
