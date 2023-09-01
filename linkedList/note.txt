@@ -1,0 +1,8 @@
+linear dsa -> made by collection of the nodes
+
+one node store : (data,address) there for no inbuilt data type so need to creat to own
+
+advantage : dynamic size 
+
+disadvantage :  random access is not allow
+                need more memory(need address and value)
