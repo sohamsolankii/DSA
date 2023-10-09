@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>    // TC O(n.logn)
-using namespace std;
+#include <bits/stdc++.h>    
+using namespace std;        
 
-void merge(vector<int> &arr, int low, int mid, int high) {
+void conquer(vector<int> &arr, int low, int mid, int high) {
     // [low...mid]
     // [mid+1..high]
     vector<int> temp; // temporary array
@@ -40,12 +40,15 @@ void merge(vector<int> &arr, int low, int mid, int high) {
     }
 }
 
-void mergeSort(vector<int> &arr, int low, int high) {
+void divide(vector<int> &arr, int low, int high) {
     if (low >= high) return;
+
     int mid = (low + high) / 2 ;
-    mergeSort(arr, low, mid);  // left half
-    mergeSort(arr, mid + 1, high); // right half
-    merge(arr, low, mid, high);  // merging sorted halves
+
+    divide(arr, low, mid);  // left half
+    divide(arr, mid + 1, high); // right half
+
+    conquer(arr, low, mid, high);  // merging sorted halves
 }
 
 int main() {
@@ -55,18 +58,21 @@ int main() {
 
     cout << "Before Sorting Array: " << endl;
     for (int i = 0; i < n; i++) {
-        cout << arr[i] << " "  ;
+        cout << arr[i] << " \n"[i==n-1]  ;
     }
-    cout << endl;
-    mergeSort(arr, 0, n - 1);
+
+    divide(arr, 0, n - 1);
     cout << "After Sorting Array: " << endl;
     for (int i = 0; i < n; i++) {
-        cout << arr[i] << " "  ;
+        cout << arr[i] << " \n"[i==n-1]  ;
     }
-    cout << endl;
+
     return 0 ;
 }
 /*
-Merg short -- Devide and Merge
+Merg short -- Devide and conquer (merge)
+TC O(n.logn) divide logn and conqure n ma
+Space Complexity	O(n)
+
 
 */
