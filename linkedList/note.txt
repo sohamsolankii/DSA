@@ -6,3 +6,11 @@ advantage : dynamic size
 
 disadvantage :  random access is not allow
                 need more memory(need address and value)
+
+
+doubley linkedlist : why we need the doubley lnked list
+
+advatage : it can travles both direction (forward,backward)
+            we can add node in for places (beginnig, end, after givern node, before given node)
+
+disadvantage: they take more space

@@ -53,7 +53,7 @@ void insertAtPosition(Node* &head,int val, int pos){
     temp -> next = new_node;
 
 }
-void updateAtPosition(Node* &head,int val, int k){
+void updateAtPosition(Node* &head,int newVal, int k){
 
     Node* temp= head;
     int current_pos = 0;
@@ -64,7 +64,7 @@ void updateAtPosition(Node* &head,int val, int k){
     }
 
     // temp is pointing to kth position
-    temp -> val = val;
+    temp -> val = newVal;
 
 }
 
@@ -148,4 +148,8 @@ signed main()
     ek temp pointer thi aakhi linklist ma travel kri skay
 
     -> It's a shorthand notation to dereference the pointer and then access the member.
+
+
+    1 -> 2 -> 3 -> 4 -> 5 this is the linked list then for the current pointer
+    current is 1 current.next = 2 and current.next.next = 3
 */
