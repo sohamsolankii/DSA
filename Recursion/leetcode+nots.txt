@@ -1,0 +1,14 @@
+always left recursion exicute first
+
+we can write with two ways tail recursion and non tail recursion
+parametererise recursion and functional recursion
+
+https://leetcode.com/problems/combination-sum/description/
+
+https://leetcode.com/problems/combination-sum-ii/
+
+https://practice.geeksforgeeks.org/problems/subset-sums2234/1
+
+https://leetcode.com/problems/subsets-ii/
+
+https://leetcode.com/problems/permutations/
