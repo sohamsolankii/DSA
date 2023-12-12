@@ -1,0 +1,18 @@
+binary search tree is same as the binary search
+
+trees left part is always less then root and right part is always greater then root
+(chek from root then nodes and append it)
+
+inorder predeccssor and succer
+    10 20 30 50 70 90 100
+
+    30 nu inorder predeccssor = 20
+    30 nu inorder succer = 50
+
+
+BST's inorder is give always tree in the sorted form but we can't say for the (preorder, postorder)
+
+Delet in BST : 
+    left che to direct Delet    
+    1 child to delete and connect
+    2 or more child to -- (left subtree ema most right ne node sathe change kri dev) eighter (right subtree ma svthi left(smallest elemt) then swap with node and delete it)
