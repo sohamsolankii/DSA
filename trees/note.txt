@@ -1,0 +1,29 @@
+trees are hierarcy data struture
+
+binary tree - at max two guys (0,1) 
+
+to solve maximum question on it some steps:
+    finding the one or more base base(recursion)
+    calling the same function on left side
+    calling the same function on right side
+    join the result
+
+    int maxDepth(TreeNode* root) {
+        // base case
+        if(root == nullptr) return 0;
+
+        int left = maxDepth(root->left);
+        int right = maxDepth(root->right);
+        
+        int ans = max(left,right) + 1; // height of the tree
+        int ans = left+right+root->val; // tree nodes sum
+        int ans = max({left, right, root->val}); // maximun in tree
+        int ans = root->val == value or left or rifht // exist in tree(finding the value)
+        reverse the tree
+
+        return ans;
+    }
+
+
+BFS : level order travel
+DFS : depth wise travel (inorder, preorder, postorder)
