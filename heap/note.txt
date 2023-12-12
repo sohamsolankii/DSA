@@ -1,0 +1,36 @@
+what is heap :
+    is a complete binary tree that comes with a heap order property
+
+CBT : every level is fully filled expect the last level
+        node always added to the left
+
+Two propertys:
+    MAX heap : child is always small than node 
+    MIN heap : child is always big than node 
+
+
+node ith index  (heapify method mate incresion O(n) TC)
+left child - 2*i index (1 base indexing) / 2*i+1 (0 base indexing)
+right child - 2*i + 1 index (1 base indexing) / 2*i+2 (0 base indexing)
+parent of child - i/2
+
+CBT (n/2 + 1) to nth node is leaf node 
+
+implemetataion : using array (1 base indexing)
+
+insertion :  (nlogn method)
+    step 1 insert at end
+    step 2 take it to the correct place (parent sathe compare and then swapping)
+
+deletion : 
+    root :
+        step 1 swap root node to last node a[1] = a[n]
+        step 2 remove last node
+        step 3 take root node to the correct possion
+
+
+
+Heap sort : 
+    step 1 swap arr[1] arr[n]
+    step 2 last is sorted size--
+    step 3 take root to the correct place (heapify algo)
