@@ -1,0 +1,26 @@
+bubble sort - pachad sort thatu jay - compare two sort last is sorted
+	TC - O(n2) - (n-1) + (n-2) + ... 1
+	T(n) = nT(n-1) + O(n)
+
+selection sort - find min sort give idx of it - aagd sort thay
+	TC - O(n2) 
+	T(n) = (n-1)T(n-2) + O(n)
+
+insertion sort - firt elemnt is always sorted then chek for next and then swap
+	TC - O(n2)
+	T(n) = nT(n-1) - O(1)
+
+merge sort - divide and conqure
+	TC - (nlongn)
+	T(n) = 2T(n/2) + O(n)
+
+quick sort - same as merge but also have pivot first is pivot and than do divide and conqure
+	TC - O(n2) - avrage and expexted O(nlongn)
+	T(n) = cT(n/2) + O(n)
+
+Radix Sort / Bucket Sort - last digit pramane bucket ma push krva pchi first pramane bucket ma push krva 
+	TC - O(n) MC - O(n)
+	T(n) = T(n/d) + O(n)
+			
+
+heap sort								 

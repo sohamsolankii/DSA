@@ -14,3 +14,12 @@ advatage : it can travles both direction (forward,backward)
             we can add node in for places (beginnig, end, after givern node, before given node)
 
 disadvantage: they take more space
+
+solving techniques:
+
+slow and fast pointer : 
+    cycle in linked ll
+    mid of linked list
+    remove nth node in the end of linkedlist
+
+convert in array/string , dummy node, using unordered_set
