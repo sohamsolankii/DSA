@@ -1,0 +1,58 @@
+link: https://github.com/Priyansh19077/Dynamic-Programming-CSES/blob/main/Solution%20Codes/5_removing_digits_greedy.cpp
+
+previous value pr aadhar rakhe te type question 
+x jetli value bnava ni hoii(vector sathe hoi) / x to 0 jva nu hoii
+                                        ketla bne(distinct way to make x) / min / max
+
+    Dice Combinations - cses
+    Minimizing Coins - cses
+    Coin Combinations I - cses
+    Removing Digits - cses  	
+    Fibonacci Number - leetcode 
+    Coin Change - leetcode
+    Combination Sum IV - leetcode
+    Number of Dice Rolls With Target Sum - leetcode
+    Climbing Stairs - leetcode
+    Min Cost Climbing Stairs - leetcode
+
+x jetli value bnava ni hoi pn unique way ma
+pick - not pick
+
+    Coin Combinations II - cses (2d dp)
+    Coin Change II - leetcode
+
+grid (strat -> final) jva   -> with or without traps
+                        unique ways / min / max 
+
+    Grid Paths - cses
+    Dungeon Game - leetcode
+    Minimum Path Sum - leetcode
+    Unique Paths - leetcode
+
+k-snap type question (x sudhi pochva nu and then pick not pick)
+                                        x na aape and consiqutive na lai ne min/max find krva nu key
+
+    Book Shop - cses
+    House Robber - leetcode
+    
+
+
+range ma ketli value put kri ske (x diffece ma)
+previous vale pr jova nu pchi lower and upper bound
+
+    Array Description - cses
+
+
+
+
+
+
+krva na :
+    Best Time to Buy and Sell Stock 1/2
+
+
+
+
+
+(subarray : continues part of the Array
+subsequence/subset : continues / non - continues part of Array)

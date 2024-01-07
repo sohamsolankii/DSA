@@ -1,0 +1,47 @@
+Dp : Those who can't remember the past are condemned to Repeat It.
+DP was enhansed recursion subproblem are overlaping
+
+1. -> choice hoi ema 
+    -> recursive funtion 2 call kare to ema
+2. -> optimal vastu puychi hoi (maxi, mini, largest)   -- also(greedy)
+    -> count number of ways
+    -> constraints that cause decisions to affect other decisions,
+
+bottom up -> tabulation                        -- ek array creat krva no aave
+    implemented with iteration and starts at the base cases
+
+top down approch -> recursion + memorization   -- remembering part
+    * implemented with recursion and made efficient with memoization
+    * memoizing a result means to store the result of a function call, usually in a hashmap  
+    an array, so that when the same function call is made again, we can simply return the 
+    memoized result instead of recalculating the result.
+
+DP is like divide and conqure but in (dp subproblem are overlapping)
+
+1D dp - factorial, fibonaci, trigular number, (optimaization , combitorial problme, game theory)
+
+
+(shortcut) : try to represent the problem in terms of idxs
+            do all ppossible step on the idx accroding to problem statement
+            sum of all stuffs -> count all ways min(of all stuffs) -> find min
+
+
+memorization shortcut - look at the parameter changes
+    step 1 : declare array size(n+1) dp[n+1]
+        2 : before return add array dp
+        3 : check if it previously computed or not if(dp[idx] != -1){ return dp[idx] }
+
+tabulation shortcut - first declare dp array
+            : first initialize base case dp[0] = 0
+            : write a ittrative loop ( 1 to n-1 idex ) for every check pick or not pick
+            : set dp[i] = max(pick, notpick)
+
+
+
+artical: https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
+some stratergies
+    : pick and not-pick (coin change kind)
+    : matrix chain multiplication
+    : longest increasing subsequence (LIS)
+    : dp on string / tree / bitmasking
