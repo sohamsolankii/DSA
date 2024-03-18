@@ -8,3 +8,7 @@ QUEue : first in first out FIFO
 
 stack question link :
 next smaller element https://www.codingninjas.com/studio/problems/next-smaller-element_1112581?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&campaign=Lovebabbarcodestudio&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbarcodestudio
+
+some standard questions: (LC 84)
+        next smaller left/right 
+        next larger left/right 
