@@ -1,0 +1,17 @@
+🔴prefix sum
+
+    Range query:
+        https://codeforces.com/contest/295/problem/A
+        https://codeforces.com/contest/433/problem/B
+        https://codeforces.com/contest/1923/submission/249574664
+        https://cses.fi/problemset/task/1646
+
+    Subarray:
+        https://cses.fi/problemset/task/1660
+        https://cses.fi/problemset/task/1661
+        https://cses.fi/problemset/task/1662
+        930, 525, 560, 974, 1074(2D)
+
+    Upper, lower bound:
+        https://codeforces.com/contest/1671/problem/C
+        https://codeforces.com/contest/1742/problem/E
