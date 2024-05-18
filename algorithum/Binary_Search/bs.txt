@@ -30,3 +30,9 @@ painters partition karva ni che
 aggrecive cow
 https://leetcode.com/submissions/detail/977600345/
 https://leetcode.com/submissions/detail/977360593/
+
+
+other questions:
+    smallest Divisors : https://www.codingninjas.com/studio/problems/smallest-divisor-with-the-given-limit_1755882?utm_source=youtube&utm_medium=affiliate&utm_campaign=codestudio_Striver_BinarySeries&leftPanelTab=0
+    Capacity To ship :  https://www.codingninjas.com/studio/problems/capacity-to-ship-packages-within-d-days_1229379?utm_source=youtube&utm_medium=affiliate&utm_campaign=codestudio_Striver_BinarySeries
+    Book allowcation : https://www.codingninjas.com/studio/problems/allocate-books_1090540?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=1

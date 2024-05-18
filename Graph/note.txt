@@ -1,0 +1,45 @@
+https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions
+https://leetcode.com/discuss/study-guide/1326900/graph-algorithms-problems-to-practice
+
+node = vertex
+
+undercted graph = biedirected edges
+
+directed graph = directed edges
+
+path in graph -> containg a lots of nodes and each of them are reachable
+                a node can not appre twich in the path
+
+undrected graph:
+
+    degrees of node -> number of edges go inside and go outside total is degrees of the node
+    total degrees of the graph is -> 2 * (number of the edges)
+
+directed graph:
+
+    indegree of node -> number of incoming edges 
+    outdegree of node -> number of outgoing edges
+
+
+
+inputs in  graph:
+    n m                   -> n nodes and m edges and next m lines contain edges list
+
+    stroing method of graph 
+        edgency 1) matrix 2)list
+
+    matrix)
+        create matrix[n+1][n+1]
+
+        if edges is (1 2) them matrix[1][2] = 1 and matrix[2][1] = 1
+
+
+weitage graph:
+    give the value of the edges / if not the standerd is 1
+
+
+
+breathe first search - level wise travel (que)
+https://leetcode.com/discuss/interview-question/1408203/2-bfs-for-graphs
+
+depth first search - recursion algo rithm

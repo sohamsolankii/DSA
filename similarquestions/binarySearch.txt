@@ -1,0 +1,7 @@
+🔴binary search
+
+basic bs:
+    https://codeforces.com/contest/1490/problem/C
+
+Calculate some thing else and return idx:
+    https://codeforces.com/contest/1612/problem/C

@@ -1,21 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int partition(vector<int> &arr,int low, int high){
-    int pivot = arr[high];
-    int i = low - 1;
-
-    for(int j =low;j < high;j++){
-        if(arr[j] < pivot){
-            i++;
-            swap(arr[j],arr[i]);
-        }
-    }
-    i++;
-    swap(arr[high],arr[i]);
-
-    return i;
+int partition(vector<int>&v, int low, int high){
+	int i = low, pivot = v[high];
+	
+	for(int j = low; j < high; j++){
+		if(v[j] < pivot){
+			swap(v[j], v[i]);
+			i++;
+		}
+	}
+	swap(v[high], v[i]);
+	return i;
 }
+
 void quickSort(vector<int> &arr,int low,int high){
     if(low < high){
         int pivotIdx = partition(arr,low,high);

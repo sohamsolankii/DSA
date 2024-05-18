@@ -1,0 +1,27 @@
+• Fundamentals
+    Binary Exponentiation
+    Euclidean Algorithm
+    Fibonacci Numbers And Recurrences
+    Primes
+
+• A Dig at Number Theory
+    Divisors And Their Properties
+    Euler's Totient Function
+    Modular Arithmetic
+    
+• Combinatorics
+    Factorials and Binomial Coefficients
+    Inclusion-Exclusion Principle
+    Common Problems
+
+
+->Binary Exponentiation
+• Exponentiation by doubling
+• Recursive
+• Iterative
+• When is it useful?
+
+    // exponential meaning a to power b a^b
+    // gcd - power - primenumber
+
+

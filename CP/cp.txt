@@ -1,0 +1,55 @@
+vs code ma 106 opration one second
+
+2d array mate 10^6 j block bnavi skay
+
+10^5 or 10^6 -> n/nlong (bs)
+
+50/1000 -> n^3
+
+
+leetcode ma  1000 ->n^2
+
+//left side hoi ene sift krava ma aave
+
+========================================================================
+
+array: 1,2,3,4,5
+
+subarray: any contiguous part of a given array
+n * (n+1)/2
+
+1, 2, [3, 4, 5], [1, 2, 3]
+
+subset: any possible combination of the original array / all element should be into the array order doesnot matter
+2^n 
+
+[1,3] [5, 3], [2, 5, 4]
+
+subsequence: elements of the array obtained by deleting some elements of the array. But even after deleting some elements, the sequence of the array elements is not changed.
+2^n 
+
+[2, 3, 5]
+
+
+
+==============================================
+left shift oprator: <<
+right shift operator: >>
+you
+
+left shift left side left side na number na bit right na number thi push kre
+
+1 << 3
+0001 << 3 = 1000 = 8
+
+left shift one thi to *2
+right shift one thi to /2
+
+
+==============================================
+ceil(a/b) == (a+b-1)/b
+
+rabin karp algo: for string matching for another string
+sliding widow + hasing to assici
+
+

@@ -2,18 +2,15 @@
 using namespace std;
 
 void insertion_sort(int arr[],int n)  {
-    for(int i=0;i<n;i++){
+    for(int i=0; i < n; i++){
         int j = i;
         
         while(j > 0 && arr[j-1] > arr[j]){
-            int tem = arr[j-1] ;
-            arr[j-1]  = arr[j];
-            arr[j] = tem;
+            swap(arr[j-1], arr[j]);
 
             j--;
         }
     }
-
 }
 int main()
 {

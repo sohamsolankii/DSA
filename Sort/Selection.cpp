@@ -8,7 +8,7 @@ void selection_sort(int arr[],int n) {
         // inner loop go after sorted small
         for(int j = i;j<=n-1;j++){
            if(arr[j] < arr[mini]) {                     // arr[mini] thi element aavse only mini index aavse
-            mini = j;
+                mini = j;
            }
         }
         //swap
@@ -18,6 +18,18 @@ void selection_sort(int arr[],int n) {
         
     }
 }
+
+void selection(vector<int>&v, int n){
+	for(int i =0; i < n-1;i++){
+		int min = i;
+		for(int j = i+1; j < n; j++){
+			if(v[j] < v[min])
+				min = j;
+		}
+		swap(v[i], v[min]);
+	}
+}
+
 int main()
 {
     int n;
