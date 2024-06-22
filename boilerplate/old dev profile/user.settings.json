@@ -1,0 +1,207 @@
+{
+    // "terminal.integrated.fontFamily": "Garamond",
+    "debug.terminal.clearBeforeReusing": true,
+    "editor.accessibilitySupport": "on",
+    "code-runner.runInTerminal": true,
+    "C_Cpp_Runner.debuggerPath": "",
+    "code-runner.saveFileBeforeRun": true,
+    "editor.mouseWheelZoom": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "explorer.fileNesting.expand": false,
+    "task.allowAutomaticTasks": "on",
+    "workbench.editorAssociations": {
+      "*.jfif": "default"
+    },
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontWeight": "normal",
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "leetcode.workspaceFolder": "C:\\Users\\soham\\.leetcode",
+    "editor.fontVariations": false,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "JetBrainsMonoNL Nerd Font",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 15,
+    "liveServer.settings.donotVerifyTags": true,
+    "cph.general.menuChoices": "cpp java python c ",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.preferences": {},
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.editor.enablePreview": false,
+    "hediet.vscode-drawio.resizeImages": null,
+    "accessibility.signals.lineHasError": {
+      "sound": "off"
+    },
+    "accessibility.signals.lineHasFoldedArea": {
+      "sound": "off"
+    },
+    "accessibility.signals.lineHasBreakpoint": {
+      "sound": "off"
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+      "sound": "off"
+    },
+    "accessibility.signals.terminalQuickFix": {
+      "sound": "off"
+    },
+    "accessibility.signals.onDebugBreak": {
+      "sound": "off"
+    },
+    "accessibility.signals.noInlayHints": {
+      "sound": "off"
+    },
+    "accessibility.signals.taskCompleted": {
+      "sound": "off"
+    },
+    "accessibility.signals.taskFailed": {
+      "sound": "off"
+    },
+    "accessibility.signals.terminalCommandFailed": {
+      "sound": "off"
+    },
+    "accessibility.signals.notebookCellCompleted": {
+      "sound": "off"
+    },
+    "accessibility.signals.notebookCellFailed": {
+      "sound": "off"
+    },
+    "accessibility.signals.diffLineInserted": {
+      "sound": "off"
+    },
+    "accessibility.signals.diffLineDeleted": {
+      "sound": "off"
+    },
+    "accessibility.signals.diffLineModified": {
+      "sound": "off"
+    },
+    "accessibility.signals.progress": {
+      "sound": "off"
+    },
+    "files.associations": {
+      "*.ejs": "html",
+      ".env*": "dotenv",
+      "iostream": "cpp",
+      "array": "cpp",
+      "atomic": "cpp",
+      "*.tcc": "cpp",
+      "bitset": "cpp",
+      "cctype": "cpp",
+      "cfenv": "cpp",
+      "chrono": "cpp",
+      "cinttypes": "cpp",
+      "clocale": "cpp",
+      "cmath": "cpp",
+      "codecvt": "cpp",
+      "complex": "cpp",
+      "condition_variable": "cpp",
+      "csetjmp": "cpp",
+      "csignal": "cpp",
+      "cstdarg": "cpp",
+      "cstddef": "cpp",
+      "cstdint": "cpp",
+      "cstdio": "cpp",
+      "cstdlib": "cpp",
+      "cstring": "cpp",
+      "ctime": "cpp",
+      "cuchar": "cpp",
+      "cwchar": "cpp",
+      "cwctype": "cpp",
+      "deque": "cpp",
+      "forward_list": "cpp",
+      "list": "cpp",
+      "unordered_map": "cpp",
+      "unordered_set": "cpp",
+      "vector": "cpp",
+      "exception": "cpp",
+      "algorithm": "cpp",
+      "functional": "cpp",
+      "iterator": "cpp",
+      "map": "cpp",
+      "memory": "cpp",
+      "memory_resource": "cpp",
+      "numeric": "cpp",
+      "random": "cpp",
+      "ratio": "cpp",
+      "regex": "cpp",
+      "set": "cpp",
+      "string": "cpp",
+      "system_error": "cpp",
+      "tuple": "cpp",
+      "type_traits": "cpp",
+      "utility": "cpp",
+      "fstream": "cpp",
+      "future": "cpp",
+      "initializer_list": "cpp",
+      "iomanip": "cpp",
+      "iosfwd": "cpp",
+      "istream": "cpp",
+      "limits": "cpp",
+      "mutex": "cpp",
+      "new": "cpp",
+      "ostream": "cpp",
+      "scoped_allocator": "cpp",
+      "shared_mutex": "cpp",
+      "sstream": "cpp",
+      "stdexcept": "cpp",
+      "streambuf": "cpp",
+      "thread": "cpp",
+      "typeindex": "cpp",
+      "typeinfo": "cpp",
+      "valarray": "cpp"
+    },
+    "editor.tokenColorCustomizations": {
+      "[*Light*]": {
+        "textMateRules": [
+          {
+            "scope": "ref.matchtext",
+            "settings": {
+              "foreground": "#000"
+            }
+          }
+        ]
+      },
+      "[*Dark*]": {
+        "textMateRules": [
+          {
+            "scope": "ref.matchtext",
+            "settings": {
+              "foreground": "#fff"
+            }
+          }
+        ]
+      },
+      "textMateRules": []
+    },
+    "dotenv.enableAutocloaking": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "typescript.reportStyleChecksAsWarnings": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "eslint.rules.customizations": [],
+    "js/ts.implicitProjectConfig.checkJs": true
+  }
+  // {
+  //   "code-runner.runInTerminal": true,
+  //   "code-runner.saveFileBeforeRun": true,
+  //   "editor.accessibilitySupport": "off",
+  //   "editor.formatOnSave": true,
+  //   "editor.fontLigatures": false,
+  //   "editor.fontVariations": false,
+  //   "editor.fontWeight": "normal",
+  //   "editor.formatOnType": true,
+  //   "tailwindCSS.experimental.configFile": null,
+  //   "editor.suggest.showStatusBar": true,
+  //   "window.zoomLevel": 1,
+  //   "editor.mouseWheelZoom": true
+  // }
+  

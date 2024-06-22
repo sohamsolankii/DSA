@@ -1,0 +1,254 @@
+{
+	"editor.fontSize": 16,
+	"terminal.integrated.fontSize": 16,
+	"workbench.enableExperiments": false,
+	"extensions.autoUpdate": false,
+	"workbench.startupEditor": "none",
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+	"workbench.statusBar.visible": true,
+	"update.mode": "manual",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"python.languageServer": "Default",
+	"vsicons.dontShowNewVersionMessage": true,
+	"files.associations": {
+		"*.py": "python",
+		".env*": "dotenv"
+	},
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+
+	"[go]": {
+		"editor.insertSpaces": false,
+		"editor.formatOnSave": true
+	},
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"yaml": true,
+		"python": true,
+		"typescript": true,
+		"svelte": true,
+		"typescriptreact": true,
+		"css": true,
+		"c": true,
+		"java": false,
+		"sql": true,
+		"latex": true,
+		"plsql": true
+	},
+	"explorer.confirmDelete": false,
+	"svelte.enable-ts-plugin": true,
+	"telemetry.telemetryLevel": "off",
+	"update.showReleaseNotes": false,
+	"extensions.autoCheckUpdates": false,
+	"settingsSync.ignoredExtensions": [],
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true,
+		"**/env": true,
+		"**/venv": true
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/env/**": true,
+		"**/venv/**": true,
+		"env-*": true
+	},
+	"files.exclude": {
+		"*.sublime-*": true,
+		"**/__pycache__": true,
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.pytest_cache": true,
+		"**/.vscode": true,
+		"env*": true,
+		"node_modules": true,
+		"venv": true,
+		".next": true
+	},
+	"workbench.iconTheme": "material-icon-theme",
+
+	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"editor.formatOnType": false, // required
+	"editor.formatOnPaste": true, // optional
+
+	"editor.formatOnSaveMode": "file", // required to format on save
+
+	"vs-code-prettier-eslint.prettierLast": false, // set as "true" to run 'prettier' last not first
+
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+
+	"prettier.tabWidth": 4,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.currentLine.enabled": false,
+	"gitlens.statusBar.enabled": false,
+	"gitlens.codeLens.enabled": false,
+	"editor.cursorSurroundingLines": 2,
+	"editor.linkedEditing": true,
+	"terminal.integrated.defaultProfile.linux": "",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"kali-linux (WSL)": {
+			"path": "C:\\WINDOWS\\System32\\wsl.exe",
+			"args": ["-d", "kali-linux"]
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"files.autoSave": "afterDelay",
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"code-runner.runInTerminal": true,
+	"editor.detectIndentation": false,
+	"prettier.useTabs": true,
+	"editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+	"vsicons.presets.jsonOfficial": true,
+	"editor.insertSpaces": false,
+	"python.formatting.provider": "yapf",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"npm.keybindingsChangedWarningShown": true,
+	"editor.accessibilitySupport": "off",
+	"editor.tokenColorCustomizations": {
+		"[*Light*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#000"
+					}
+				}
+			]
+		},
+		"[*Dark*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#fff"
+					}
+				}
+			]
+		},
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "keyword.other.dotenv",
+				"settings": {
+					"foreground": "#FF000000"
+				}
+			}
+		]
+	},
+	"editor.cursorBlinking": "expand",
+	"genieai.openai.model": "gpt-4",
+	"codesnap.shutterAction": "copy",
+	"codesnap.backgroundColor": "#ECECEC",
+	"codesnap.realLineNumbers": true,
+	"terminal.integrated.env.windows": {},
+	"appService.showSavePrompt": false,
+	"remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+	"remote.SSH.remotePlatform": {
+		"calcom-calcom-scx8xmrxe9l.vss.gitpod.io": "linux",
+		"calcom-calcom-ndf3v9hgb7u.vss.gitpod.io": "linux",
+		"calcom-calcom-ml5l9ixtn3a.vss.gitpod.io": "linux",
+		"bowtiejsonschema-bowtie-5q9cb2dxuzd.vss.gitpod.io": "linux",
+		"bowtiejsonschema-bowtie-nzoodcbk8sd.vss.gitpod.io": "linux",
+		"bowtiejsonschema-bowtie-ilzz9fj5r51.vss.gitpod.io": "linux",
+		"bowtiejsonschema-bowtie-k8uj70oth1y.vss.gitpod.io": "linux"
+	},
+	"terminal.integrated.env.linux": {},
+	"inlang.userId": "1ced8ab7-8a03-4165-ba48-fb386d10b590",
+	"python.defaultInterpreterPath": "C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+	"oracledevtools.bookmarkFileFolder": "C:\\Users\\ASUS\\Oracle\\oracle.oracledevtools",
+	"oracledevtools.download.otherFolder": "C:\\Users\\ASUS\\downloads",
+	"oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\ASUS\\Oracle\\network\\admin",
+	"[oraclesql]": {
+		"editor.suggest.showSnippets": true,
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		}
+	},
+	"oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\ASUS\\Oracle\\network\\admin",
+	"terminal.integrated.tabs.defaultIcon": "terminal-bash",
+	"cSpell.userWords": ["Ahmedabad"],
+	"git.openRepositoryInParentFolders": "never",
+	"powermode.explosions.customCss": {},
+	"powermode.enabled": true,
+	"leetcode.workspaceFolder": "C:\\Users\\ASUS\\.leetcode",
+	"[shellscript]": {
+		"files.eol": "\n"
+	},
+	"files.eol": "\n",
+	"extensions.ignoreRecommendations": true,
+	"githubPullRequests.createOnPublishBranch": "never",
+	"githubPullRequests.pullBranch": "never",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[latex]": {
+		"editor.defaultFormatter": "mathematic.vscode-latex"
+	},
+	"codesnap.containerPadding": "16px",
+	"[sql]": {
+		"editor.defaultFormatter": "mtxr.sqltools"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.formatOnSave": true,
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"editor.renderControlCharacters": false,
+	"codesnap.showWindowTitle": true,
+	"terminal.integrated.fontFamily": "monospace",
+	"editor.mouseWheelZoom": true,
+	"editor.minimap.renderCharacters": false,
+	"workbench.colorTheme": "One Dark Pro",
+	"console-ninja.featureSet": "Community",
+	"workbench.productIconTheme": "fluent-icons"
+}
