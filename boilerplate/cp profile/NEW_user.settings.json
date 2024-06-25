@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Bearded Theme Vivid Black",
+    "code-runner.runInTerminal": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.unicodeHighlight.allowedCharacters": {
+      " ": true
+    },
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.editor.empty.hint": "hidden",
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "github.copilot.editor.enableAutoCompletions": true
+  }
