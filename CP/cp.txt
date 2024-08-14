@@ -53,3 +53,14 @@ rabin karp algo: for string matching for another string
 sliding widow + hasing to assici
 
 
+to convert 1D cordinate into 2D conrdinate(n,m)
+raw = idx/m , colum = idx%m
+
+odd*odd = odd
+odd+odd = even
+
+even+even = even
+even*even = even
+
+even+odd = odd
+even*odd = even
