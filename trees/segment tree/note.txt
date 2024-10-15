@@ -1,0 +1,3 @@
+static array + range queries        = prefix sum
+initial array + range update quries + final array quries   = diffrence array
+    0 0 0 +7 0 0 0 -7 0 0 

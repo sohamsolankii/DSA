@@ -1,6 +1,21 @@
 trees are hierarcy data struture
 
-binary tree - at max two guys (0,1) 
+n = node/vertex
+m = edges
+
+for a generative tree / n ry tree  
+    n nodes and m-1 edges
+
+Trees: Hierarchical, no cycles, N-1 edges
+Binary Trees: Each node has at most two children.
+BST: A binary tree with ordered nodes.
+Binary Indexed Tree:(Fenwick Tree) For efficient prefix sum queries.
+Minimum Spanning Tree: A graph concept for minimizing edge weight.
+Segment Tree: For efficient range queries and updates.
+
+Structures that have 𝑁− 1 Trees, Binary Trees, Binary Search Trees, and Minimum Spanning Trees.
+Structures that do not have N−1 edges: Binary Indexed Trees and Segment Trees.
+
 
 to solve maximum question on it some steps:
     finding the one or more base base(recursion)
