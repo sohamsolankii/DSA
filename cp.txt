@@ -94,3 +94,5 @@ a%b = ( (a%b) + b ) % b
 'a' ascii 97
 
 upper + 'a' = lower + 'A'   or   upper = char( lower - 32) / lower =  char(upper + 32)  
+
+
