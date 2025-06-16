@@ -47,3 +47,35 @@ TREES:
     sub tree -> tree ni ander na tree ne 
 
 meaning :- vertices(nodes)/(round circuls) -- edges(line)
+
+
+
+
+----------------------------------------------------------------------------------------
+GRAPH - simple DFS/BFS
+
+for cycle detection in undirected graph - use DFS/BFS with visited + parent variable
+https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
+
+for cycle detection in directed graph - use DFS/BFS with visited + pathVisited
+https://leetcode.com/problems/course-schedule/description/
+
+shortest path or print path - BFS
+https://leetcode.com/problems/word-ladder/
+https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/description/
+if print only one path(any or shortest) - BFS + parent array
+https://cses.fi/problemset/result/13203506/
+if print all paths - BFS + DFS
+https://leetcode.com/problems/word-ladder-ii/description/
+
+
+graph bipartite - DFS/BFS + color, no need to use visited 
+https://leetcode.com/problems/is-graph-bipartite/
+https://cses.fi/problemset/task/1668
+
+topological sort - DAG - (DFS) - for go to node x we first needs to visite it's all parents (parent come before child) 
+	store everything in stack
+https://www.geeksforgeeks.org/problems/topological-sort/1
+https://leetcode.com/problems/course-schedule-ii/description/  + DAG check 
+
+topological sort using kahn's algo (BFS)
