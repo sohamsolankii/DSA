@@ -12,3 +12,6 @@ next smaller element https://www.codingninjas.com/studio/problems/next-smaller-e
 some standard questions: (LC 84)
         next smaller left/right 
         next larger left/right 
+
+best way to find next gerater or smaller element:
+        https://codeforces.com/blog/entry/143633
